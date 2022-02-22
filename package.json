@@ -4,7 +4,7 @@
   "description": "Bot de discord que saluda para los cumpleaños",
   "main": "src/bot.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/bot.js"
   },
   "keywords": [],
   "author": "Tama",
