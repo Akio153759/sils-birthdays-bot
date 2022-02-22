@@ -1,0 +1,17 @@
+{
+  "name": "sils-birthdays-bot",
+  "version": "1.0.0",
+  "description": "Bot de discord que saluda para los cumpleaños",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Tama",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "moment": "^2.29.1"
+  }
+}
