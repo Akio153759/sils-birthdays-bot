@@ -1,9 +1,9 @@
+require('dotenv').config();
+
 const { Client, Intents } = require('discord.js');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
-const interval = 5000 * 60 * 60 * 8;
+const interval = process.env.TIME_INTERVAL;
 const employees = require('./employees');
-
-require('dotenv').config();
 
 client.on('ready', () => {
   console.info(`Logged in as ${client.user.tag}!`);
