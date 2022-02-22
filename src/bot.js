@@ -10,7 +10,7 @@ client.on('ready', () => {
 
   const channel = client.channels.cache.find(channel => channel.id === process.env.DISCORD_CHANNEL_ID);
 
-  schedule.scheduleJob(`32 20 * * *`, () => {
+  schedule.scheduleJob(process.env.CRON_SCHEDULE_EXPRESSION, () => {
     console.info('Executing job...');
     const birthdays = employees.getBirthdays();
 
