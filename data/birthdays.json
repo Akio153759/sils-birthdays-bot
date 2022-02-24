@@ -46,5 +46,13 @@
     {
         "name": "Plomer",
         "birthday": "1998-05-05"
+    },
+    {
+        "name": "Ema",
+        "birthday": "1997-01-28"
+    },
+    {
+        "name": "Sr. Thompsom",
+        "birthday": "1997-02-25"
     }
 ]
