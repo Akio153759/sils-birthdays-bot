@@ -22,7 +22,7 @@ client.on('ready', () => {
 client.on('message', message => {
 
   if (message.content == '/spam silsbot') {
-    const channel = client.channels.cache.find(chn => chn === '953653654601220177');
+    const channel = client.channels.cache.find(chn => chn.id === '953653654601220177');
     channel.send('/dolar');
   }
 })
