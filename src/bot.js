@@ -20,10 +20,9 @@ client.on('ready', () => {
 });
 
 client.on('messageCreate', async (message) => {
-  console.info('on message receive...');
-  if (message.content.includes('/spam silsbot')) {
+  if (message.content.includes('/say')) {
     const channel = client.channels.cache.find(chn => chn.id === process.env.DISCORD_CHANNEL_ID);
-    await channel.send('/dolar');
+    await channel.send(`${message.content.substring(5)}`);
   }
 })
 client.login(process.env.TOKEN);
