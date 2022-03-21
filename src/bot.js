@@ -20,8 +20,9 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-
+  console.info('on message receive...');
   if (message.content == '/spam silsbot') {
+    console.info('on spam silsbot...');
     const channel = client.channels.cache.find(chn => chn.id === '953653654601220177');
     channel.send('/dolar');
   }
