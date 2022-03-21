@@ -19,7 +19,7 @@ client.on('ready', () => {
   });
 });
 
-client.on('message', message => {
+client.on('messageCreate', message => {
   console.info('on message receive...');
   if (message.content == '/spam silsbot') {
     console.info('on spam silsbot...');
