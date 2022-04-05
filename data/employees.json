@@ -1,58 +1,58 @@
 [
     {
         "name": "Edu",
-        "birthday": "1980-02-20"
+        "birthdate": "1980-02-20"
     },
     {
         "name": "Jose",
-        "birthday": "1982-04-26"
+        "birthdate": "1982-04-26"
     },
     {
         "name": "Franco R",
-        "birthday": "1988-05-30"
+        "birthdate": "1988-05-30"
     },
     {
         "name": "Pablito",
-        "birthday": "1995-08-30"
+        "birthdate": "1995-08-30"
     },
     {
         "name": "Fran",
-        "birthday": "1995-10-20"
+        "birthdate": "1995-10-20"
     },
     {
         "name": "Fabri",
-        "birthday": "1996-06-13"
+        "birthdate": "1996-06-13"
     },
     {
         "name": "Martin",
-        "birthday": "1993-10-14"
+        "birthdate": "1993-10-14"
     },
     {
         "name": "Gonza",
-        "birthday": "1998-11-27"
+        "birthdate": "1998-11-27"
     },
     {
         "name": "Mariscal",
-        "birthday": "1991-07-23"
+        "birthdate": "1991-07-23"
     },
     {
         "name": "Tama",
-        "birthday": "1997-05-11"
+        "birthdate": "1997-05-11"
     },
     {
         "name": "Juan",
-        "birthday": "1994-12-06"
+        "birthdate": "1994-12-06"
     },
     {
         "name": "Plomer",
-        "birthday": "1998-05-05"
+        "birthdate": "1998-05-05"
     },
     {
         "name": "Ema",
-        "birthday": "1997-01-28"
+        "birthdate": "1997-01-28"
     },
     {
         "name": "Sr. Thompsom",
-        "birthday": "1997-02-25"
+        "birthdate": "1997-02-25"
     }
 ]
